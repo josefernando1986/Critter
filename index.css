@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c5c1b6;
+}
+
+.header{
+    height: 50px;
+    background-color: #88a489;
+}
+
+.header h2{
+    height: inherit;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.cards-container{
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.tarjeta{
+    width: 50%;
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    -webkit-box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.75);
+}
+
+.tarjeta img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.tarjeta .nick{
+    font-weight: bolder;
+}
+
+.tarjeta .date,
+.tarjeta .likes {
+    color: gray;
+}
